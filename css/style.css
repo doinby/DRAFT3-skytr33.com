@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* Navigation Bar */
+nav {
+  height: 150px;
+  background-color: #d1f2fa; /* light blue */
+}
+.navbar-material .nav-wrapper {
+
+}
+.navbar-material .nav-wrapper .brand-logo img {
+  margin-top: 15px;
+  height: 120px;
+}
+
+/* General Application */
+.container {
+  width: 80%;
+}
+.container .section {
+  padding: 10px;
+}
+h1, h2, h3, h4, h5, h6, .card-title {
+  font-family: 'Geo', sans-serif;
+  color: #101010;
+}
+p, a, .body-type, .flow-text {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  color: #101010;
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  color: #1BC0E8; /* blue */
+}
+strong {
+  font-weight: 600;
+}
+.fa {
+  color: #1BC0E8;
+}
+
+/* About */
+.body-text-wrapper {
+  padding: 0 15% 0 15%;
+}
+
+/* Portfolio */
+.card-image .card-title {
+  font-size: 32px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  text-transform: none;
+}
+.card-link:hover {
+  background-color: #d1f2fa; /* light blue */
+  color: #1BC0E8; /* blue */
+}
+.card-link {
+  text-decoration: none;
+}
+.waves-effect {
+  width: 100%;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #d1f2fa;  /* blue */
+}
+.page-footer .copyright-wrapper {
+  width: 100%;
+  padding: 10px 0 10px;
+  margin: 0;
+  background-color: #d1f2fa;  /* blue */
+  color: black;
+  text-align: right;
+}
+.subscribe {
+  width: 135px;
+  height: 35px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-envelope {
+  padding-right: 10px;
+}
+.footer-icons .col {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
