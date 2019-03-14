@@ -1,7 +1,7 @@
 # skytr33.com
 This is a landing page template built to promote Sky Tr33's product.
 
-Visit live version at: https://chinhdo.co/skytr33.com/
+Visit live version at: https://doinby.github.io/skytr33.com/
 
 List of landing page features:
 - Materialize CSS library
